@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="46.804857">
+    <testcase classname="Login feature" name="Failure in hotel booking login when username is left empty" time="10.202709">
+        <system-out>
+            <![CDATA[Given User is on login page.................................................passed
+When User leaves username empty.............................................passed
+And Clicks on login button..................................................passed
+Then Alert message is displayed username empty..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login feature" name="Failure in hotel booking login when password is left empty" time="8.886916">
+        <system-out>
+            <![CDATA[Given User is on login page.................................................passed
+When User leaves password empty.............................................passed
+And Clicks on login button..................................................passed
+Then Alert message is displayed password empty..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login feature" name="Failure in hotel booking login when username and password is left empty" time="9.172091">
+        <system-out>
+            <![CDATA[Given User is on login page.................................................passed
+When User leaves username and password empty................................passed
+And Clicks on login button..................................................passed
+Then Alert message is displayed username empty..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login feature" name="User logging in with invalid data" time="9.21594">
+        <system-out>
+            <![CDATA[Given User is on login page.................................................passed
+When User enters "Rahul" and "123456".......................................passed
+And Clicks on login button..................................................passed
+Then Alert message is displayed.............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login feature" name="User logging with valid data" time="9.327201">
+        <system-out>
+            <![CDATA[Given User is on login page.................................................passed
+When User enters "capgemini" and "capg1234".................................passed
+And Clicks on login button..................................................passed
+Then User is logged into the system.........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
